@@ -1,0 +1,19 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="RepositoryPatternTest.Repository/Repositories/TestRepository.cs">
+    <Files>
+      <File FileName="RepositoryPatternTest.Types/Planet.cs" Line="23" Column="10" />
+      <File FileName="RepositoryPatternTest.Types/Moon.cs" Line="13" Column="30" />
+      <File FileName="RepositoryPatternTest.Types/Account.cs" Line="10" Column="11" />
+      <File FileName="RepositoryPatternTest.Repository/Interfaces/IPlanetRepository.cs" Line="1" Column="1" />
+      <File FileName="RepositoryPatternTest.Repository/Repositories/MSSQLPlanetRepository.cs" Line="1" Column="1" />
+      <File FileName="RepositoryPatternTest.PlanetBusiness/PlanetBusiness.cs" Line="26" Column="43" />
+      <File FileName="RepositoryPatternTest/Program.cs" Line="1" Column="1" />
+      <File FileName="RepositoryPatternTest.Repository/Repositories/TestRepository.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
