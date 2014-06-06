@@ -9,8 +9,9 @@ namespace RepositoryPatternTest.Repository.Repositories
 {
     public class MSSQLPlanetRepository : IPlanetRepository
     {
-        #region IPlanetRepository Members
+        //private string connString = ConfigurationManager
 
+    #region IPlanetRepository Members
         public List<Planet> GetPlanets()
         {
             // Simulate returning the list of data from the database.
