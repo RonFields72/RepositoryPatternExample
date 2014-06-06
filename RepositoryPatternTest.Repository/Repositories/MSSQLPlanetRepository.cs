@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Web;
+using System.Web.Configuration;
 using RepositoryPatternTest.Repository.Interfaces;
 using RepositoryPatternTest.Types;
 
@@ -9,7 +11,7 @@ namespace RepositoryPatternTest.Repository.Repositories
 {
     public class MSSQLPlanetRepository : IPlanetRepository
     {
-        //private string connString = ConfigurationManager
+        private string connString = WebConfigurationManager.ConnectionStrings["cnUBH_SQL"].ConnectionString;
 
     #region IPlanetRepository Members
         public List<Planet> GetPlanets()
